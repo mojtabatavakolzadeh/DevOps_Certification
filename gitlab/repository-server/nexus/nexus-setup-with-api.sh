@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# User & Pass docker hub
+USER_DOCKER_HUb="mojtaba1994"
+PASS_DOCKER_HUb="Mm3494621"
+
 # Variable section
 ADMIN_USERNAME="admin"
 ADMIN_PASSWORD="<NEXUS_ADMIN_PASSWORD>"
@@ -244,8 +248,8 @@ curl -k -X 'POST' \
     "autoBlock": false,
     "authentication": {
     "type": "username",
-    "username": "mojtabaa1994",
-    "password": "Mm3494621Mm",
+    "username": "'${USER_DOCKER_HUb}'",
+    "password": "'${PASS_DOCKER_HUb}'",
     "ntlmHost": "string",
     "ntlmDomain": "string"
     }
@@ -419,8 +423,8 @@ curl -k -X 'POST' \
     "autoBlock": false,
     "authentication": {
     "type": "username",
-    "username": "mojtabaa1994",
-    "password": "Mm3494621Mm",
+    "username": "'${USER_DOCKER_HUb}'",
+    "password": "'${PASS_DOCKER_HUb}'",
     "ntlmHost": "string",
     "ntlmDomain": "string"
     }
